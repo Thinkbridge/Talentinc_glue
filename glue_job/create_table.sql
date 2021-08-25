@@ -1,0 +1,1 @@
+create table public.pancake (id int identity( 0, 1 ) primary key, checksum varchar not null, key varchar not null, value varchar, created_at datetime, updated_at datetime) 
